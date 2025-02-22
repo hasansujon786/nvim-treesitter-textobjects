@@ -102,22 +102,22 @@
 ; block
 (block) @block.outer
 
-; conditional
-(if_statement
-  [
-    condition: (_)
-    consequence: (_)
-    alternative: (_)?
-  ] @conditional.inner) @conditional.outer
+; ; conditional
+; (if_statement
+;   [
+;     condition: (_)
+;     consequence: (_)
+;     alternative: (_)?
+;   ] @conditional.inner) @conditional.outer
 
-(switch_statement
-  body: (switch_block) @conditional.inner) @conditional.outer
+; (switch_statement
+;   body: (switch_block) @conditional.inner) @conditional.outer
 
-(conditional_expression
-  [
-    consequence: (_)
-    alternative: (_)
-  ] @conditional.inner) @conditional.outer
+; (conditional_expression
+;   [
+;     consequence: (_)
+;     alternative: (_)
+;   ] @conditional.inner) @conditional.outer
 
 ; loop
 (for_statement
