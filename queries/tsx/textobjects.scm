@@ -467,6 +467,7 @@
       ";"
     ] @parameter.outer .)
 ]
+;--------- ecma end ---------
 
 ;--------- jsx ---------
 (jsx_attribute) @attribute.outer
